@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "nhk nohelp",
+  "version": "0.1",
+
+  "description": "Toggles furiganas on nhk web news easy",
+
+  "page_action": {
+    "browser_style": true,
+    "default_title": "Toggle Furigana"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+  "background": {
+      "scripts": ["nohelp.js"]
+  }
+}
